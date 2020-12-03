@@ -8,63 +8,99 @@
   width: 100%;
   height: 100vh;
   background-color: yellow;
-  overflow: hidden;
+  overflow-y: scroll;
+
 }
-.blu {
+
+
+.blue{
   background-color: blue;
 }
-.purple {
+
+.orange{
+  background-color: orange;
+}
+
+.purple{
   background-color: purple;
 }
 
-.red {
-  background-color: red;
-}
-
-.violet {
-  background-color: violet;
-}
 main {
   display: flex;
   height: calc(100% - 90px);
+
+
+
 }
 
-.main-playlist {
-  flex-grow: 2;
-  min-height: 200px;
-  overflow-y: auto;
-}
 
-.main-nav {
-  width: 250px;
+.left-nav{
   height: 100%;
-  background-color: pink;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  width: 250px;
+  /* background-color: green; */
 }
 
-.main-content {
+.top-logo{
+  width: 100%;
+  height: 90px;
+  background-color: pink;
+}
+
+.list{
+  width: 100%;
+  height: 70%;
+  background-color: orange;
+  overflow-y: scroll;
+
+}
+
+.nav-footer{
+  height: 30%;
+  background-color: darkblue;
+}
+
+.main-content{
   width: calc(100% - 250px);
   height: 100%;
   padding-top: 90px;
-  background-color: blue;
+
+  background-color: green;
   overflow-y: scroll;
+
+
 }
 
 
 
 
+#call-to-action{
+  position: fixed;
+  top:0;
+  right:0;
+  background-color: black;
+  width: calc(100% - 250px);
+  height: 90px;
+  opacity: 0.5;
 
-.font-big {
-  font-size: 50px;
+  text-align: right;
+}
+
+.btn{
+color: white;
+font-size: 30px;
+
+}
+
+.font-big{
+  font-size: 30px;
 }
 
 footer {
-  width: 100%;
-  height: 90px;
   position: fixed;
-  bottom:0;
-  left: 0;
-  background-color: grey;
+  height: 90px;
+  background-color: red;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
 }
