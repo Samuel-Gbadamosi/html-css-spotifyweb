@@ -9,89 +9,118 @@
   height: 100vh;
   background-color: yellow;
   overflow-y: scroll;
-
 }
 
-
-.blue{
+.blue {
   background-color: blue;
 }
 
-.orange{
+.orange {
   background-color: orange;
 }
 
-.purple{
+.purple {
   background-color: purple;
 }
 
 main {
   display: flex;
   height: calc(100% - 90px);
-
-
-
 }
 
+.list ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 10px;
+}
 
-.left-nav{
+.spotify {
+  height: 60px;
+  margin-top: 10px;
+  padding-left: 5px;
+}
+
+.left-nav {
   height: 100%;
   width: 250px;
-  /* background-color: green; */
 }
 
-.top-logo{
+.top-logo {
   width: 100%;
   height: 90px;
-  background-color: pink;
+  background-color: black;
 }
 
-.list{
+.list {
   width: 100%;
   height: 70%;
-  background-color: orange;
+  background-color: black;
   overflow-y: scroll;
-
+  line-height: 40px;
 }
 
-.nav-footer{
-  height: 30%;
+.list .home a {
+  color: white;
+}
+
+.list .play a {
+  color: white;
+  font-size: 16px;
+}
+
+.list ul li a {
+  color: grey;
+}
+
+
+.nav-footer {
+  height:30%;
+  width: 100%;
   background-color: darkblue;
 }
 
-.main-content{
+.main-content {
   width: calc(100% - 250px);
   height: 100%;
   padding-top: 90px;
+  background-color: #2f374f;
+  right: 0;
 
-  background-color: green;
   overflow-y: scroll;
-
-
 }
 
+hr{
+width: 80%;
+margin-left: 20px;
+}
 
-
-
-#call-to-action{
+#call-to-action {
   position: fixed;
-  top:0;
-  right:0;
+  top: 0;
+  right: 0;
   background-color: black;
   width: calc(100% - 250px);
   height: 90px;
   opacity: 0.5;
-
   text-align: right;
 }
 
-.btn{
-color: white;
-font-size: 30px;
-
+#call-to-action .btn {
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+  position: relative;
+  top: 20px;
+  right: 5px;
 }
 
-.font-big{
+#call-to-action a.btn {
+  border-radius: 20px;
+  border: 1px solid white;
+  padding: 6px 25px;
+}
+
+.font-big {
   font-size: 30px;
 }
 
