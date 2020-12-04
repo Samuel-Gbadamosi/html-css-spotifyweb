@@ -39,20 +39,87 @@ main {
 .logo{
   height: 90px;
   width: 100%;
-  background-color: green;
+  background-color: black;
+}
+
+ul li a{
+  list-style: none;
+  text-decoration: none;
+}
+
+.spotify{
+  height: 60px;
+  /* width: 100%; */
+margin: 10px 5px;
+}
+
+.name{
+  margin-left: 10px;
+  justify-content: flex-start;
+  line-height: 30px;
+}
+
+.name a{
+  color:white;
+}
+
+hr{
+  width: 90%;
+  padding-left: 20px;
+}
+
+.list ul li a {
+  list-style: none;
+  text-decoration: none;
+line-height: 25px;
+padding-left: 15px;}
+
+
+/* reusable colors */
+.white{
+  color: white;
+}
+.grey{
+  color:grey;
+}
+/* reusable colors */
+
+h4{
+padding-left: 15px;
+font-size: 15px;
+padding-bottom: 5px;
+}
+
+span{
+  padding-left: 15px;
+  font-size: 18px;
+  padding-bottom: 15px;
+
 }
 
 .list{
-  height: 20%;
+  height: 15%;
   width: 100%;
-background-color: pink;
+background-color: black;
+padding: 5px 5px;
+
+
 }
 
 .play-list{
   height: 60%;
   width: 100%;
-  background-color: blue;
+  background-color: black;
   overflow-y: scroll;
+}
+
+.play-list ul li a{
+  list-style: none;
+  text-decoration: none;
+  color:grey;
+  margin-left: 15px;
+  padding-top: 5px;
+  line-height: 25px;
 }
 
 .nav-footer{
