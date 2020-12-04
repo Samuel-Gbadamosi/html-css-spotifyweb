@@ -163,8 +163,24 @@ text-transform: uppercase;
   padding-left: 10px;
 }
 
+#albums{
+  height: 900px;;
+  width: 100%;
+  background-color: orange;
+  display: flex;
+  justify-content:space-around;
+  align-items: flex-start;
 
 
+}
+
+.imageheavy{
+  height: 200px;
+  width: 100%;
+padding-left: 10px;
+padding-top: 10px;
+padding-right: 10px;
+}
 
 
 
