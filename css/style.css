@@ -229,14 +229,24 @@ span {
   color:white;
 }
 
-/* #albums .imageheavy:hover{
-opacity: 0.5;
-background-color:#ffffff;
-background-image: url('/Users/mac/Desktop/Corso Boolean/exe25/html-css-spotifyweb/img 2/play.jpg');
-background-position: center;
-background-repeat: no-repeat;
+#albums .imageheavy:hover{
+border:2px solid red;
 
-  } */
+
+  }
+
+#call-to-action .btn:hover{
+color: white;
+border: 2px solid red;
+font-size: 17px;
+
+}
+
+
+
+
+
+
 
 #call-to-action {
   position: fixed;
@@ -273,20 +283,124 @@ background-repeat: no-repeat;
 footer {
   position: fixed;
   height: 90px;
-  background-color: red;
+  background-color: black;
   bottom: 0px;
   left: 0px;
   right: 0px;
   margin-bottom: 0px;
+  display: flex;
 }
 
-/* .title-sub{
-  height: 50px;
-  width: 100%;
-  font-size: 14px;
-  line-height: 16px;
+.one{
+  height: 90px;
+  width: 20%;
+display: flex;
+justify-content: space-around;
+padding-top: 10px;
 
-} */
+}
+
+.two{
+  height: 90px;
+  width: 60%;
+}
+.three{
+  height: 90px;
+  width: 20%;
+
+}
+
+.foot-pic{
+  height: 50px;
+  width: 50px;
+}
+
+.picky{
+  padding-top:10px;
+}
+
+.mid-sck{
+  padding-top: 20px;
+font-size: 15px;
+height: 40px;
+/* padding-right: 60px; */
+/* color: grey; */
+}
+
+
+/* two sect */
+.two{
+display: flex;
+justify-content: center;
+}
+
+.player ul li {
+align-content: space-around;
+ display:inline-block;
+}
+
+.two .player ul li a:hover{
+  color:white;
+}
+.player{
+  padding-top: 15px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+.ico ul li {
+  list-style: none;
+}
+
+.ico ul li a:hover{
+  color:white;
+}
+.ico{
+  padding-right: 60px;
+  padding-top: 15px;
+  font-size: 20px;
+}
+.length{
+  padding-top: 25px;
+
+}
+
+
+.length ul li:nth-child(2){
+		width: 240px;
+		border-bottom: 5px solid #ccc;
+		margin: 5px 15px;
+		border-radius: 3px;
+    padding-bottom: -40px;
+	}
+
+  .lib{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+
+  }
+
+  .lib ul li {
+    list-style: none;
+    display: inline-block;
+  }
+
+  .lib ul li:nth-child(4){
+  		width: 100px;
+  		border-bottom: 5px solid #ccc;
+  		margin: 5px 15px;
+  		border-radius: 3px;
+      padding-bottom: -40px;
+      margin-bottom: 30px;
+      position: relative;
+      bottom: 10px;
+
+  	}
+
+    .lib ul li a:hover{
+      color: white;
+    }
 .sect1 {
   height: 500px;
   width: 100%;
@@ -430,6 +544,30 @@ footer {
     width: 180px;
     ;
   }
+
+  .one{
+    height: 90px;
+    width: 35%;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 10px;
+
+  }
+
+  footer {
+    position: fixed;
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    display: flex;
+  }
+
+
+
 }
 
 /* small devices S */
@@ -500,6 +638,12 @@ flex-direction: row;
   border-radius: 100px;
   font-size: 30px;
 }
+
+
+
+
+
+
 
 
 
